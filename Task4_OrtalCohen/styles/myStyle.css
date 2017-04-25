@@ -1,0 +1,89 @@
+body 
+{
+    direction:rtl;
+    background-color:#33c0ca;
+          
+}
+#container{
+    width:960px;
+    margin:0 auto;
+   
+}
+#photocover{
+    content:url(../images/phone.jpg);
+       width:500px;;
+       height:500px;
+       display:inline-block;
+              margin-right:100px;
+
+
+  
+}
+#firstone{
+    text-align:center;
+    color:white;
+    font-family:'Gan CLM';
+    font-size:36px;
+    margin:50px;
+    
+}
+#combine{
+      font-size:50px;
+    color:#274C77;
+    font-family:'Gan CLM';
+    text-align:center;
+    margin:10px;
+    padding:5px;
+}
+
+#who{
+      width:300px;
+    height:120px;
+    background-color:#E7ECEF;
+    padding:25px;
+    
+
+
+}
+h1{
+    color:#274C77;
+    padding:5px;
+}
+form{
+    width:210px;
+    height:250px;
+    background-color:#A3CEF1;
+    padding:25px;
+    margin-top:100px;
+    display:inline-block;
+    float:right;
+}
+label{
+     display:block;
+     margin-top:10px;
+}
+
+input[type ='text'] , textarea , select {
+    display:block;
+    margin-bottom:15px;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+}
+#links{
+  width:600px;
+    height:20px;
+    background-color:#A3CEF1;
+    margin:10px;
+    margin-right:300px;
+    font-size:16px;
+    text-align:center;
+}
+
+a:visited {
+    color: green;
+}
+a:hover{
+    color:blueviolet;
+}
